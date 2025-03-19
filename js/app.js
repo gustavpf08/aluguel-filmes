@@ -15,8 +15,8 @@ function changingTextArea(value) {
   }
 }
 
-// deve ter uma forma de selecionar o #game-3 e, na mesma linha de código
-// selecionar a ancora "a". Depois, criar um id para a âncora e usar esses botões diff
+// deve ter uma forma de selecionar o #game-3 e, na mesma linha de código e
+// selecionar a ancora "a".
 
 function alterarStatus(value) {
   if (value === 1) {
@@ -25,10 +25,12 @@ function alterarStatus(value) {
   }
 
   if (value === 2) {
+    valueButton2.classList.toggle("dashboard__item__button--return");
     changingTextArea(valueButton2);
   }
 
   if (value === 3) {
+    valueButton3.classList.toggle("dashboard__item__button--return");
     changingTextArea(valueButton3);
   }
 }
