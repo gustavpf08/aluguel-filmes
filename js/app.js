@@ -8,8 +8,6 @@ let buttonStatus3 = document.querySelector("#game-3");
 let valueButton3 = buttonStatus3.querySelector(".dashboard__item__button");
 
 function changingTextArea(value) {
-  console.log(value.innerHTML);
-
   if (value.innerHTML === "Alugar") {
     value.innerHTML = "Devolver";
   } else {
