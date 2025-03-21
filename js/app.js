@@ -8,7 +8,7 @@ function changingTextArea(value) {
 
 function alterarStatus(value) {
   let sectionMovie = document.querySelector(`#game-${value}`);
-  let imgStatus = sectionMovie.querySelector("div");
+  let imgStatus = sectionMovie.querySelector(".dashboard__item__img");
   let buttonStatus = sectionMovie.querySelector(".dashboard__item__button");
 
   if (value == 1 || value == 2 || value == 3) {
