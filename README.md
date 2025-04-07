@@ -5,4 +5,6 @@ Tecnologias utilizadas:
 * HTML5
 * CSS3
 
+A ideia do projeto é alugar e devolver filmes por meio dos botões, alterando o comportamento deles e das imagens. <br>
+
 ![Preview do projeto estudando lógica de programação](/img/preview-aluguel.png)
